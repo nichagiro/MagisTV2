@@ -5,7 +5,7 @@ const CardDescarga = ({ target }) => {
     const RenderData = useMemo(() =>
         <>
             <div className="row p-3 justify-content-around">
-                <div className="col-12 card-md-3 dg-blue px-4 py-5 text-white radius_adaptable">
+                <div className="col-12 col-md-3 dg-blue px-4 py-5 text-white radius_adaptable">
                     <div className="d-flex align-items-center justify-content-center">
                         <i className="fab fa-napster fa-3x"></i>
                         <p className="h4 font-weight-bold pl-2">Fire TV</p>
@@ -17,7 +17,7 @@ const CardDescarga = ({ target }) => {
                         <small >Fire TV Stick / HD / 4K / Lite / Cube</small>
                     </div>
                 </div>
-                <div className="my-xs-3 col-12 card-md-3 dg-green px-4 py-5 text-white radius_adaptable">
+                <div className="my-xs-3 col-12 col-md-3 dg-green px-4 py-5 text-white radius_adaptable">
                     <div className="d-flex align-items-center justify-content-center">
                         <i className="fab fa-android fa-3x"></i>
                         <p className="h4 font-weight-bold pl-2">Android</p>
@@ -29,7 +29,7 @@ const CardDescarga = ({ target }) => {
                         <small>Smartphone con android superior a 5.1</small>
                     </div>
                 </div>
-                <div className="col-12 card-md-3 dg-red px-4 py-5 text-white radius_adaptable">
+                <div className="col-12 col-md-3 dg-red px-4 py-5 text-white radius_adaptable">
                     <div className="d-flex align-items-center justify-content-center">
                         <i className="fas fa-tv fa-3x"></i>
                         <p className="h4 font-weight-bold pl-2">Android TV</p>

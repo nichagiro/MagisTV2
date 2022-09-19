@@ -1,5 +1,6 @@
 import Loading from '@/components/custom/Loading'
 import Whatsapp from '@/components/custom/Whatsapp'
+import CardDescarga from '@/containers/resellers/CardDescarga'
 import Intro from '@/containers/resellers/Intro'
 import Planes from '@/containers/resellers/Planes'
 import Footer from '@/layouts/footers/Footer'
@@ -61,10 +62,10 @@ export default function Home() {
     return (
         <>
             <Head>
-                <meta charset="utf-8" />
+                <meta charSet="utf-8" />
                 <meta name="language" content="es" />
                 <meta name="revisit-after" content="7 days" />
-                <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+                <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="keywords" content="magis tv international, series, películas, deportes, premium, netflix, prime, magi" />
                 <meta name="description" content="magis tv international, trabaja con nosotros y vende paquetes a tus usuarios para disfrutar de magis tv, peliculas, series, novelas, canales, deportes, etc" />
@@ -96,6 +97,7 @@ export default function Home() {
             <main className='dg-theme'>
                 <Intro />
                 <Planes />
+                <CardDescarga target="app_magis" />
             </main>
 
             <Footer />

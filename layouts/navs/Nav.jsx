@@ -51,7 +51,7 @@ const Nav = () => {
                             </a>
                         </li>
                         <li>
-                            <a href='/resellers'>Resellers</a>
+                            <a href='/resellers.html'>Resellers</a>
                         </li>
                     </ul>
                 </nav>
