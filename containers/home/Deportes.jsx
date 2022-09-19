@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Deportes = () => {
@@ -17,32 +16,41 @@ const Deportes = () => {
               cantidad de canales de deportes, y canales de Pases exclusivos totalmente gratis en cualquiera de nuestros planes.
             </p>
             <div className="row justify-content-center">
-              <div className="col-8 pt-xs-2 col-sm-4" >
-                <Image
-                  height={48}
-                  width={128}
-                  src="/img/nba.webp"
-                  alt="deporte"
-                  sizes="100vw"
-                />
+              <div className="col-8 pt-xs-2 col-sm-4 d-flex justify-content-center" >
+                <picture>
+                  <source srcSet="/img/nba.webp" type="image/webp" />
+                  <img
+                    loading='lazy'
+                    height={'100%'}
+                    width={'100%'}
+                    src="/img/nba.webp"
+                    alt="deporte"
+                  />
+                </picture>
               </div>
-              <div className="col-8 pt-xs-2 col-sm-4" >
-                <Image
-                  height={48}
-                  width={128}
-                  src="/img/game pass.webp"
-                  alt="deporte"
-                  sizes="100vw"
-                />
+              <div className="col-8 pt-xs-2 col-sm-4 d-flex justify-content-center">
+                <picture>
+                  <source srcSet="/img/gamepass.webp" type="image/webp" />
+                  <img
+                    loading='lazy'
+                    height={'100%'}
+                    width={'100%'}
+                    src="/img/gamepass.webp"
+                    alt="deporte"
+                  />
+                </picture>
               </div>
-              <div className="col-8 pt-xs-2 col-sm-4" >
-                <Image
-                  height={48}
-                  width={128}
-                  src="/img/mlb.webp"
-                  alt="deporte"
-                  sizes="100vw"
-                />
+              <div className="col-8 pt-xs-2 col-sm-4 d-flex justify-content-center">
+                <picture>
+                  <source srcSet="/img/mlb.webp" type="image/webp" />
+                  <img
+                    loading='lazy'
+                    height={'100%'}
+                    width={'100%'}
+                    src="/img/mlb.webp"
+                    alt="deporte"
+                  />
+                </picture>
               </div>
             </div>
           </div>
@@ -52,60 +60,78 @@ const Deportes = () => {
                 <div className="d-none d-sm-block pt-xs-2 pt-sm-3 owl-carousel testimonials-carousel wow fadeInUp">
                   <div className="testimonial-item row">
                     <div className="col-4">
-                      <Image
-                        height={219}
-                        width={160}
-                        src="/img/fox.webp"
-                        sizes="100vw"
-                        alt="canal"
-                      />
+                      <picture>
+                        <source srcSet="/img/fox.webp" type="image/webp" />
+                        <img
+                          loading='lazy'
+                          height={'100%'}
+                          width={'100%'}
+                          src="/img/fox.webp"
+                          sizes="100vw"
+                        />
+                      </picture>
                     </div>
                     <div className="col-4">
-                      <Image
-                        height={219}
-                        width={160}
-                        src="/img/espn.webp"
-                        sizes="100vw"
-                        alt="canal"
-                      />
+                      <picture>
+                        <source srcSet="/img/espn.webp" type="image/webp" />
+                        <img
+                          loading='lazy'
+                          height={'100%'}
+                          width={'100%'}
+                          src="/img/espn.webp"
+                          sizes="100vw"
+                        />
+                      </picture>
                     </div>
                     <div className="col-4">
-                      <Image
-                        height={219}
-                        width={160}
-                        src="/img/being.webp"
-                        sizes="100vw"
-                        alt="canal"
-                      />
+                      <picture>
+                        <source srcSet="/img/being.webp" type="image/webp" />
+                        <img
+                          loading='lazy'
+                          height={'100%'}
+                          width={'100%'}
+                          src="/img/being.webp"
+                          sizes="100vw"
+                        />
+                      </picture>
                     </div>
                   </div>
                   <div className="testimonial-item row">
                     <div className="col-4">
-                      <Image
-                        height={219}
-                        width={160}
-                        src="/img/ufc.webp"
-                        sizes="100vw"
-                        alt="canal"
-                      />
+                      <picture>
+                        <source srcSet="/img/ufc.webp" type="image/webp" />
+                        <img
+                          loading='lazy'
+                          height={'100%'}
+                          width={'100%'}
+                          src="/img/ufc.webp"
+                          sizes="100vw"
+                        />
+                      </picture>
                     </div>
                     <div className="col-4">
-                      <Image
-                        height={219}
-                        width={160}
-                        src="/img/tigo.webp"
-                        sizes="100vw"
-                        alt="canal"
-                      />
+                      <picture>
+                        <source srcSet="/img/tigo.webp" type="image/webp" />
+                        <img
+                          loading='lazy'
+                          height={'100%'}
+                          width={'100%'}
+                          src="/img/tigo.webp"
+                          sizes="100vw"
+                        />
+                      </picture>
                     </div>
                     <div className="col-4">
-                      <Image
-                        height={219}
-                        width={160}
-                        src="/img/direct tv.webp"
-                        sizes="100vw"
-                        alt="canal"
-                      />
+                      <picture>
+                        <source srcSet="/img/directtv.webp" type="image/webp" />
+                        <img
+                          loading='lazy'
+                          height={'100%'}
+                          width={'100%'}
+                          src="/img/directtv.webp"
+                          sizes="100vw"
+                        />
+                      </picture>
                     </div>
                   </div>
                 </div>
@@ -113,78 +139,96 @@ const Deportes = () => {
                   <div className="testimonial-item row d-flex justify-content-center">
                     <div className="col-8 d-flex justify-content-center ">
                       <div className='col-12'>
-                        <Image
-                          height={219}
-                          width={160}
-                          src="/img/fox.webp"
-                          sizes="100vw"
-                          alt="canal"
-                        />
+                        <picture>
+                          <source srcSet="/img/fox.webp" type="image/webp" />
+                          <img
+                            loading='lazy'
+                            height={'100%'}
+                            width={'100%'}
+                            src="/img/fox.webp"
+                            sizes="100vw"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="testimonial-item row d-flex justify-content-center">
                     <div className="col-8 d-flex justify-content-center">
                       <div className='col-12'>
-                        <Image
-                          height={219}
-                          width={160}
-                          src="/img/espn.webp"
-                          sizes="100vw"
-                          alt="canal"
-                        />
+                        <picture>
+                          <source srcSet="/img/espn.webp" type="image/webp" />
+                          <img
+                            loading='lazy'
+                            height={'100%'}
+                            width={'100%'}
+                            src="/img/espn.webp"
+                            sizes="100vw"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="testimonial-item row d-flex justify-content-center">
                     <div className="col-8 d-flex justify-content-center">
                       <div className='col-12'>
-                        <Image
-                          height={219}
-                          width={160}
-                          src="/img/being.webp"
-                          sizes="100vw"
-                          alt="canal"
-                        />
+                        <picture>
+                          <source srcSet="/img/being.webp" type="image/webp" />
+                          <img
+                            loading='lazy'
+                            height={'100%'}
+                            width={'100%'}
+                            src="/img/being.webp"
+                            sizes="100vw"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="testimonial-item row d-flex justify-content-center">
                     <div className="col-8 d-flex justify-content-center">
                       <div className='col-12'>
-                        <Image
-                          height={219}
-                          width={160}
-                          src="/img/ufc.webp"
-                          sizes="100vw"
-                          alt="canal"
-                        />
+                        <picture>
+                          <source srcSet="/img/ufc.webp" type="image/webp" />
+                          <img
+                            loading='lazy'
+                            height={'100%'}
+                            width={'100%'}
+                            src="/img/ufc.webp"
+                            sizes="100vw"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="testimonial-item row d-flex justify-content-center">
                     <div className="col-8 d-flex justify-content-center">
                       <div className='col-12'>
-                        <Image
-                          height={219}
-                          width={160}
-                          src="/img/tigo.webp"
-                          sizes="100vw"
-                          alt="canal"
-                        />
+                        <picture>
+                          <source srcSet="/img/tigo.webp" type="image/webp" />
+                          <img
+                            loading='lazy'
+                            height={'100%'}
+                            width={'100%'}
+                            src="/img/tigo.webp"
+                            sizes="100vw"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="testimonial-item row d-flex justify-content-center">
                     <div className="col-8 d-flex justify-content-center">
                       <div className='col-12'>
-                        <Image
-                          height={219}
-                          width={160}
-                          src="/img/direct tv.webp"
-                          sizes="100vw"
-                          alt="canal"
-                        />
+                        <picture>
+                          <source srcSet="/img/directtv.webp" type="image/webp" />
+                          <img
+                            loading='lazy'
+                            height={'100%'}
+                            width={'100%'}
+                            src="/img/directtv.webp"
+                            sizes="100vw"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>

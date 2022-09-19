@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Vod = () => {
@@ -17,48 +16,84 @@ const Vod = () => {
             <div className="d-none d-md-block wow fadeInUp">
               <div className="testimonial-item row">
                 <div className="col-2 client-logo">
-                  <Image height={288} width={176} src="/img/VODhbomax.webp" className="img-fluid rounded" alt="HBO" />
+                  <picture>
+                    <source srcSet="/img/VODhbomax.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODhbomax.webp" className="img-fluid rounded" alt="HBO" />
+                  </picture>
                 </div>
                 <div className="col-2 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODdisney.webp" className="img-fluid rounded" alt="Disney" />
+                  <picture>
+                    <source srcSet="/img/VODdisney.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODdisney.webp" className="img-fluid rounded" alt="Disney" />
+                  </picture>
                 </div>
                 <div className="col-2 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODprime.webp" className="img-fluid rounded" alt="Prime" />
+                  <picture>
+                    <source srcSet="/img/VODprime.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODprime.webp" className="img-fluid rounded" alt="Prime" />
+                  </picture>
                 </div>
                 <div className="col-2 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODnetflix.webp" className="img-fluid rounded" alt="Netflix" />
+                  <picture>
+                    <source srcSet="/img/VODnetflix.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODnetflix.webp" className="img-fluid rounded" alt="Netflix" />
+                  </picture>
                 </div>
                 <div className="col-2 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODaple.webp" className="img-fluid rounded" alt="APLE" />
+                  <picture>
+                    <source srcSet="/img/VODaple.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODaple.webp" className="img-fluid rounded" alt="APLE" />
+                  </picture>
                 </div>
                 <div className="col-2 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODhulu.webp" className="img-fluid rounded" alt="HULU" />
+                  <picture>
+                    <source srcSet="/img/VODhulu.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODhulu.webp" className="img-fluid rounded" alt="HULU" />
+                  </picture>
                 </div>
               </div>
             </div>
             <div className="d-md-none owl-carousel testimonials-carousel wow fadeInUp">
               <div className="testimonial-item row">
                 <div className="col-6 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODhbomax.webp" className="img-fluid rounded" alt="canal" />
+                  <picture>
+                    <source srcSet="/img/VODhbomax.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODhbomax.webp" className="img-fluid rounded" alt="canal" />
+                  </picture>
                 </div>
                 <div className="col-6 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODnetflix.webp" className="img-fluid rounded" alt="canal" />
-                </div>
-              </div>
-              <div className="testimonial-item row">
-                <div className="col-6 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODaple.webp" className="img-fluid rounded" alt="canal" />
-                </div>
-                <div className="col-6 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODhulu.webp" className="img-fluid rounded" alt="canal" />
+                  <picture>
+                    <source srcSet="/img/VODnetflix.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODnetflix.webp" className="img-fluid rounded" alt="canal" />
+                  </picture>
                 </div>
               </div>
               <div className="testimonial-item row">
                 <div className="col-6 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODprime.webp" className="img-fluid rounded" alt="canal" />
+                  <picture>
+                    <source srcSet="/img/VODaple.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODaple.webp" className="img-fluid rounded" alt="canal" />
+                  </picture>
                 </div>
                 <div className="col-6 client-logo rounded">
-                  <Image height={288} width={176} src="/img/VODdisney.webp" className="img-fluid rounded" alt="canal" />
+                  <picture>
+                    <source srcSet="/img/VODhulu.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODhulu.webp" className="img-fluid rounded" alt="canal" />
+                  </picture>
+                </div>
+              </div>
+              <div className="testimonial-item row">
+                <div className="col-6 client-logo rounded">
+                  <picture>
+                    <source srcSet="/img/VODprime.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODprime.webp" className="img-fluid rounded" alt="canal" />
+                  </picture>
+                </div>
+                <div className="col-6 client-logo rounded">
+                  <picture>
+                    <source srcSet="/img/VODdisney.webp" type="image/webp" />
+                    <img loading='lazy' height={288} width={176} src="/img/VODdisney.webp" className="img-fluid rounded" alt="canal" />
+                  </picture>
                 </div>
               </div>
             </div>

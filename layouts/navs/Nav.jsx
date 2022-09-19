@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 
 const Nav = () => {
@@ -14,13 +13,16 @@ const Nav = () => {
                     <h1 className="text-light">
                         <a href="#header" className="row d-flex align-items-center justify-content-center">
                             <div className="px-xs-3">
-                                <Image
-                                    src="/img/logoglobal.webp"
-                                    alt="magistv"
-                                    height={200}
-                                    width={200}
-                                    priority={true}                                    
-                                />
+                                <picture>
+                                    <source srcSet="/img/logoglobal.webp" type="image/webp" />
+                                    <img
+                                        loading='lazy'
+                                        src="/img/logoglobal.webp"
+                                        alt="magistv"
+                                        height={'100%'}
+                                        width={'100%'}
+                                    />
+                                </picture>
                             </div>
                             <span id="title" className="d-none d-md-block text-white pl-2">
                                 MAGISTVINTERNATIONAL
