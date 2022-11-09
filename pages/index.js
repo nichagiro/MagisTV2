@@ -12,7 +12,6 @@ import CardDescarga from '@/containers/resellers/CardDescarga'
 import Footer from '@/layouts/footers/Footer'
 import Nav from '@/layouts/navs/Nav'
 import Head from 'next/head'
-import Script from 'next/script'
 import { useEffect, useState } from 'react'
 
 export default function Home() {
@@ -92,7 +91,7 @@ export default function Home() {
         <meta name="copyright" content="© overweb" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://magistvinternational.com/" />
-        <title>MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES</title>      
+        <title>MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES</title>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES" />
         <meta name="twitter:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />

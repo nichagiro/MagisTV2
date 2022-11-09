@@ -14,9 +14,9 @@ export default function Document() {
                 <NextScript />
                 <Script strategy='beforeInteractive' src="/lib/jquery/jquery.min.js" />
                 <Script strategy='beforeInteractive' src="/lib/jquery/jquery-migrate.min.js" />
+                <Script strategy='beforeInteractive' src="/lib/owlcarousel/owl.carousel.min.js" />
                 <Script strategy='afterInteractive' src="/lib/waypoints/waypoints.min.js" />
                 <Script strategy='afterInteractive' src="/lib/wow/wow.min.js" />
-                <Script strategy='afterInteractive' src="/lib/owlcarousel/owl.carousel.min.js" />
                 <Script strategy='lazyOnload' src="/lib/mobile-nav/mobile-nav.js" />
                 <Script strategy='lazyOnload' src="/lib/easing/easing.min.js" />
                 <Script strategy='lazyOnload' src="/lib/bootstrap/js/bootstrap.bundle.min.js" />

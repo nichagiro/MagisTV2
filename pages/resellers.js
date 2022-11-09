@@ -6,7 +6,6 @@ import Planes from '@/containers/resellers/Planes'
 import Footer from '@/layouts/footers/Footer'
 import Nav from '@/layouts/navs/Nav'
 import Head from 'next/head'
-import Script from 'next/script'
 import { useEffect, useState } from 'react'
 
 export default function Home() {
