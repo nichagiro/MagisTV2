@@ -104,14 +104,6 @@ export default function Home() {
 
             <Whatsapp indicativo={58} number={4126679598} />
             {load && <Loading />}
-
-            <Script strategy='afterInteractive' src="/lib/waypoints/waypoints.min.js" />
-            <Script strategy='afterInteractive' src="/lib/wow/wow.min.js" />
-            <Script strategy='afterInteractive' src="/lib/wow/wow.min.js" />
-            <Script strategy='afterInteractive' src="/lib/owlcarousel/owl.carousel.min.js" />
-            <Script strategy='lazyOnload' src="/lib/mobile-nav/mobile-nav.js" />
-            <Script strategy='lazyOnload' src="/lib/easing/easing.min.js" />
-            <Script strategy='lazyOnload' src="/js/main.js" />
         </>
     )
 }

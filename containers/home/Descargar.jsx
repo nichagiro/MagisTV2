@@ -1,19 +1,21 @@
 import React from 'react'
-import CardDescarga from '../resellers/cardDescarga'
 
-const Descargar = () => {
+const Descargar = ({className}) => {
     return (
         <section>
             <button
                 data-toggle="modal"
                 data-target="#app_magis"
                 id="btn-download"
-                className="mt-2 dg-red px-5 py-3"
+                className={className}
             >
                 Descargar
             </button>
-            <CardDescarga target="app_magis" />
         </section>)
 }
 
 export default Descargar
+
+Descargar.defaultProps = {
+    className : 'mt-2 dg-red px-5 py-3'
+}

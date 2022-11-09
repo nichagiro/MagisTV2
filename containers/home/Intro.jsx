@@ -55,9 +55,6 @@ const Intro = () => {
               </picture>
             </div>
           </div>
-          <div>
-            <Descargar />
-          </div>
         </div>
       </div>
     </section>

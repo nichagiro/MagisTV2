@@ -9,7 +9,7 @@ const Suscripcion = () => {
           <p>CANCELA TU PLAN Y LUEGO REGISTRA TU PAGO</p>
         </header>
         <div className="row row-eq-height justify-content-center">
-          <div className="col-lg-4 mb-4">
+          <div className="col-12 col-sm-7 col-lg-4 mb-4">
             <div className="card wow animated bounceInUp delay-2s dg-blue">
               <h2>1 MES</h2>
               <small>Tarifa Fija</small>
@@ -46,7 +46,7 @@ const Suscripcion = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 mb-4">
+          <div className="col-12 col-sm-7 col-lg-4 mb-4">
             <div className="card wow bounceInUp dg-green">
               <h2>3 MESES</h2>
               <div className="card-body">
@@ -81,7 +81,7 @@ const Suscripcion = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 mb-4">
+          <div className="col-12 col-sm-7 col-lg-4 mb-4">
             <div className="card wow animate bounceInUp delay-2s dg-purple">
               <h2>6 MESES</h2>
               <small>1 mes gratis</small>

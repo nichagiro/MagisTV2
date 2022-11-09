@@ -1,3 +1,5 @@
+import Descargar from '@/containers/home/Descargar'
+import Link from 'next/link'
 import React from 'react'
 
 const Nav = () => {
@@ -30,10 +32,12 @@ const Nav = () => {
                         </a>
                     </h1>
                 </div>
-                <nav id="menu" className="main-nav float-right d-none d-lg-block">
+                <nav id="menu" className="main-nav float-right d-none d-xl-block">
                     <ul>
                         <li>
-                            <a href='/' className="active">Inicio</a>
+                            <Link href='/'>
+                                <a>Inicio</a>
+                            </Link>
                         </li>
                         <li>
                             <a href="/#services">Deportes</a>
@@ -42,16 +46,12 @@ const Nav = () => {
                             <a href="/#why-us">Suscripción</a>
                         </li>
                         <li>
-                            <a
-                                data-toggle="modal"
-                                data-target="#app_magis"
-                                className="text-white font-weight-bold hand"
-                            >
-                                Aplicación
-                            </a>
+                            <Link href='/resellers'>
+                                <a >Resellers</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href='/resellers.html'>Resellers</a>
+                            <Descargar className='dg-red' />
                         </li>
                     </ul>
                 </nav>

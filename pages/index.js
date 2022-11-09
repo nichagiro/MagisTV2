@@ -1,5 +1,6 @@
 import Loading from '@/components/custom/Loading'
 import Whatsapp from '@/components/custom/Whatsapp'
+import NavidadPromo from '@/components/publicitarios/NavidadPromo'
 import Deportes from '@/containers/home/Deportes'
 import Exclusivos from '@/containers/home/Exclusivos'
 import Intro from '@/containers/home/Intro'
@@ -7,6 +8,7 @@ import InvitacionReseller from '@/containers/home/InvitacionReseller'
 import PaquetesIncluidos from '@/containers/home/PaquetesIncluidos'
 import Suscripcion from '@/containers/home/Suscripcion'
 import Vod from '@/containers/home/Vod'
+import CardDescarga from '@/containers/resellers/CardDescarga'
 import Footer from '@/layouts/footers/Footer'
 import Nav from '@/layouts/navs/Nav'
 import Head from 'next/head'
@@ -16,8 +18,20 @@ import { useEffect, useState } from 'react'
 export default function Home() {
   const [load, setLoad] = useState(true)
 
-  useEffect(() => {
+  const onStart = () => {
+    // Testimonials carousel (uses the Owl Carousel library)
+    $(".testimonials-carousel").owlCarousel({
+      autoplay: true,
+      items: 1,
+      lazyLoad: true,
+      loop: true,
+      mouseDrag: false,
+    });
     setLoad(false)
+  }
+
+  useEffect(() => {
+    onStart()
   }, [])
 
   const getSocials = () => {
@@ -78,9 +92,7 @@ export default function Home() {
         <meta name="copyright" content="© overweb" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://magistvinternational.com/" />
-        <title>MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES</title>
-        <link href="https://magistvinternational.com/img/logoglobal.webp" rel="icon" />
-        <link href="https://magistvinternational.com/img/logoglobal.webp" rel="apple-touch-icon" />
+        <title>MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES</title>      
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES" />
         <meta name="twitter:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
@@ -108,19 +120,14 @@ export default function Home() {
         <Suscripcion />
         <InvitacionReseller />
         <Vod />
+        <CardDescarga target="app_magis" />
+        <NavidadPromo />
       </main>
 
       <Footer />
 
       <Whatsapp indicativo={58} number={4126679598} />
       {load && <Loading />}
-
-      <Script strategy='afterInteractive' src="/lib/waypoints/waypoints.min.js" />
-      <Script strategy='afterInteractive' src="/lib/wow/wow.min.js" />
-      <Script strategy='afterInteractive' src="/lib/owlcarousel/owl.carousel.min.js" />
-      <Script strategy='lazyOnload' src="/lib/mobile-nav/mobile-nav.js" />
-      <Script strategy='lazyOnload' src="/lib/easing/easing.min.js" />
-      <Script strategy='lazyOnload' src="/js/main.js" />
     </>
   )
 }
