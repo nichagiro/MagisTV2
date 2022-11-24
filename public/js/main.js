@@ -1,35 +1,6 @@
 (function ($) {
     "use strict";
 
-    // SLIDER SHOW
-    // const img1 = '/img/sing.webp'
-    // const img2 = '/img/gucci.webp'
-    // const img3 = '/img/tinder.webp'
-    // const img4 = '/img/dog-zapato_1.webp'
-
-
-    // const intro = document.getElementById('intro');
-    // let count = 1;
-
-    // if (img1 && img2 && img3 && img4) {
-    //     setInterval(() => {
-    //         if (count == 1) {
-    //             intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img2 + ')';
-    //         };
-    //         if (count == 2) {
-    //             intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img3 + ')';
-    //         };
-    //         if (count == 3) {
-    //             intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img4 + ')';
-    //         };
-    //         if (count == 4) {
-    //             intro.style.backgroundImage = 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),' + 'url(' + img1 + ')';
-    //             count = 0;
-    //         };
-    //         count++
-    //     }, 5000);
-    // }
-
     // Initiate the wowjs animation library
     new WOW().init();
 

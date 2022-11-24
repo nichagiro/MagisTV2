@@ -15,15 +15,15 @@ const Intro = () => {
                     <ul style={{ listStyle: 'none', fontSize: '1.1rem' }} className="text-white p-0 m-0">
                         <li className="">
                             <i className="fas fa-check-circle"></i>
-                            <b>Revendedores con super panel, con una compra mínima de 30 créditos</b>
+                            <b> Revendedores con super panel, con una compra mínima de 30 créditos</b>
                         </li>
                         <li className="my-2">
                             <i className="fas fa-check-circle"></i>
-                            <b>Revendedores con panel administrativo, con compra mínima de 1.000 créditos </b>
+                            <b> Revendedores con panel administrativo, con compra mínima de 1.000 créditos </b>
                         </li>
                         <li className="my-2">
                             <i className="fas fa-check-circle"></i>
-                            <b>Soporte demos de 6 horas</b>
+                            <b> Soporte demos de 6 horas</b>
                         </li>
                     </ul>
                 </div>

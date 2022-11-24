@@ -6,7 +6,7 @@ const Intro = () => {
     <section id="intro" className="intro-img clearfix">
       <div className="container">
         <div className="intro-info">
-          <h2>TELEVISIÓN<br /><span>EN VIVO</span><br />PARA TU HOGAR</h2>
+          <h2>TELEVISIÓN <br /> <span>EN VIVO</span><br />PARA TU HOGAR</h2>
           <b className="text-white text-xs-justify">
             MAGIS TV es una aplicación innovadora, exclusiva para dispositivos Android,
             la cuál mediante nuestro servicio de IPTV Latino reproduce en una interfaz sencilla
@@ -55,6 +55,7 @@ const Intro = () => {
               </picture>
             </div>
           </div>
+          <Descargar className='dg-red d-xl-none' />
         </div>
       </div>
     </section>

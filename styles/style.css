@@ -230,18 +230,18 @@ h6 {
 #intro {
     width: 100%;
     position: relative;
-    padding: 150px 0 120px 0;
+    padding: 130px 0 120px 0;
     background-size: cover;
     background-position: center;
     height: 100vh
 }
 
 .intro-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/minoinsNavidad.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/home.webp);
 }
 
 .intro-img-resellers {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/minoinsNavidad.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/home.webp);
 }
 
 #intro .intro-img {
@@ -1408,7 +1408,7 @@ h6 {
     }
 
     #intro {
-        padding: 140px 0 60px 0
+        padding: 150px 0 60px 0
     }
 
     #intro .intro-img {
