@@ -2,16 +2,16 @@ import React from 'react'
 
 const Exclusivos = () => {
   return (
-    <section id="sports" className="bg-white py-5">
+    <section id="sports" className="bg-white py-5" >
       <div className="container">
         <div className="row about-extra">
           <div className="col-lg-6 wow fadeInUp order-1 order-lg-2">
             <div className="img-fluid">
               <picture>
-                <source srcSet="/img/tvmagistvedition.webp" type="image/webp" />
+                <source srcSet="/img/a-15.webp" type="image/webp" />
                 <img
                   loading='lazy'
-                  src="/img/tvmagistvedition.webp"
+                  src="/img/a-15.webp"
                   alt="premim"
                   width='100%'
                   height='100%'
@@ -34,7 +34,7 @@ const Exclusivos = () => {
                   />
                 </picture>
               </div>
-              <div className="col-4  wow bounceInUp">
+              <div className="col-4 wow bounceInUp">
                 <picture>
                   <source srcSet="/img/btn2.webp" type="image/webp" />
                   <img
@@ -84,9 +84,7 @@ const Exclusivos = () => {
                   />
                 </picture>
               </div>
-            </div>
-            <div className="row my-5">
-              <div className="col-4  wow bounceInUp">
+              <div className="col-4 wow bounceInUp">
                 <picture>
                   <source srcSet="/img/btn6.webp" type="image/webp" />
                   <img
@@ -100,7 +98,7 @@ const Exclusivos = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-4  wow bounceInUp">
+              <div className="col-4 wow bounceInUp">
                 <picture>
                   <source srcSet="/img/bt8.webp" type="image/webp" />
                   <img

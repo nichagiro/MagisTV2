@@ -8,96 +8,23 @@ const Vod = () => {
           <h3>CONTENIDO VOD</h3>
         </header>
         <p className="container text-justify">
-          Con cualquier plan que te suscribas disfrutas de más de 10.000 titulo en películas y
-          series de las plataformas de streaming más populares.
+          MAGIS TV es un servicio de entretenimiento que funciona a través de su App para dispositivos Android.
+          Cuenta con más de +1000 canales de televisión latinos e internacionales en vivo, además de una
+          amplia biblioteca VOD (Video-On-Demand) de películas y series. Tendrás acceso a todo el contenido
+          conectando hasta (3) dispositivos o pantallas en simultáneo.
         </p>
-        <div className="pt-xs-2 pt-sm-4 pt-lg-5 row justify-content-center">
-          <div className="col-lg-11">
-            <div className="d-none d-md-block wow fadeInUp">
-              <div className="testimonial-item row">
-                <div className="col-2 client-logo">
-                  <picture>
-                    <source srcSet="/img/VODhbomax.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODhbomax.webp" className="img-fluid rounded" alt="HBO" />
-                  </picture>
-                </div>
-                <div className="col-2 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODdisney.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODdisney.webp" className="img-fluid rounded" alt="Disney" />
-                  </picture>
-                </div>
-                <div className="col-2 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODprime.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODprime.webp" className="img-fluid rounded" alt="Prime" />
-                  </picture>
-                </div>
-                <div className="col-2 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODnetflix.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODnetflix.webp" className="img-fluid rounded" alt="Netflix" />
-                  </picture>
-                </div>
-                <div className="col-2 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODaple.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODaple.webp" className="img-fluid rounded" alt="APLE" />
-                  </picture>
-                </div>
-                <div className="col-2 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODhulu.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODhulu.webp" className="img-fluid rounded" alt="HULU" />
-                  </picture>
-                </div>
-              </div>
-            </div>
-            <div className="d-md-none owl-carousel testimonials-carousel wow fadeInUp">
-              <div className="testimonial-item row">
-                <div className="col-6 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODhbomax.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODhbomax.webp" className="img-fluid rounded" alt="canal" />
-                  </picture>
-                </div>
-                <div className="col-6 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODnetflix.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODnetflix.webp" className="img-fluid rounded" alt="canal" />
-                  </picture>
-                </div>
-              </div>
-              <div className="testimonial-item row">
-                <div className="col-6 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODaple.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODaple.webp" className="img-fluid rounded" alt="canal" />
-                  </picture>
-                </div>
-                <div className="col-6 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODhulu.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODhulu.webp" className="img-fluid rounded" alt="canal" />
-                  </picture>
-                </div>
-              </div>
-              <div className="testimonial-item row">
-                <div className="col-6 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODprime.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODprime.webp" className="img-fluid rounded" alt="canal" />
-                  </picture>
-                </div>
-                <div className="col-6 client-logo rounded">
-                  <picture>
-                    <source srcSet="/img/VODdisney.webp" type="image/webp" />
-                    <img loading='lazy' height={288} width={176} src="/img/VODdisney.webp" className="img-fluid rounded" alt="canal" />
-                  </picture>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className='d-flex justify-content-center'>
+          <picture>
+            <source srcSet="/img/tvmagistvedition.webp" type="image/webp" />
+            <img
+              loading='lazy'
+              src="/img/a-15.webp"
+              alt="premim"
+              width='100%'
+              height='100%'
+              style={{maxHeight: 'auto', maxWidth: 600}}
+            />
+          </picture>
         </div>
         <div className="container text-justify mt-5">
           <small>

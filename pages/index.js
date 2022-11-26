@@ -5,7 +5,6 @@ import Deportes from '@/containers/home/Deportes'
 import Exclusivos from '@/containers/home/Exclusivos'
 import Intro from '@/containers/home/Intro'
 import InvitacionReseller from '@/containers/home/InvitacionReseller'
-import PaquetesIncluidos from '@/containers/home/PaquetesIncluidos'
 import Suscripcion from '@/containers/home/Suscripcion'
 import Vod from '@/containers/home/Vod'
 import CardDescarga from '@/containers/resellers/CardDescarga'
@@ -108,12 +107,9 @@ export default function Home() {
         <script type="application/ld+json" dangerouslySetInnerHTML={getDataStructure()} />
         <script type="application/ld+json" dangerouslySetInnerHTML={getSocials()} />
       </Head>
-
       <Nav />
-
       <main className='dg-theme'>
         <Intro />
-        <PaquetesIncluidos />
         <Exclusivos />
         <Deportes />
         <Suscripcion />
@@ -122,9 +118,7 @@ export default function Home() {
         <CardDescarga target="app_magis" />
         <NavidadPromo />
       </main>
-
       <Footer />
-
       <Whatsapp indicativo={58} number={4126679598} />
       {load && <Loading />}
     </>
