@@ -1,16 +1,26 @@
-import React, { Fragment, useEffect } from 'react'
-import WhatsAppButtom from '../custom/WhatsAppButtom'
+import moment from 'moment/moment';
+import React, { Fragment, useEffect } from 'react';
+import WhatsAppButtom from '../custom/WhatsAppButtom';
 
 const NavidadPromo = () => {
     useEffect(() => {
-        setTimeout(() => {
-            try {
-                document.getElementById('buttonNavidad').click()
-            } catch (error) {
-                console.log('navidad promo', error.message)
-            }
-        }, 3000);
+        onStart()
     }, [])
+
+    const onStart = () => {
+        const now = moment().format('YYYY-MM-DD');
+        const limitDate = moment('2022-12-06');
+        const visible = moment(now).isSameOrBefore(limitDate)
+        if (visible) {
+            setTimeout(() => {
+                try {
+                    document.getElementById('buttonNavidad').click()
+                } catch ({ message }) {
+                    console.log('navidad promo', message)
+                }
+            }, 3000);
+        }
+    }
 
     return (
         <Fragment>
