@@ -1,3 +1,4 @@
+import WhatsAppButtom from '@/components/custom/WhatsAppButtom'
 import React from 'react'
 
 const Suscripcion = () => {
@@ -37,12 +38,10 @@ const Suscripcion = () => {
                     <span className="p-3">Contenido VOD</span>
                   </div>
                 </ul>
-                <a
-                  href="https://wa.me/573226424588?text=Me%20interesa%201%20mes%20de%20suscripción"
-                  className="mt-4 btn-get-started"
-                >
-                  Comprar
-                </a>
+                <WhatsAppButtom
+                  label='Comprar'
+                  message='Me interesa 1 mes de suscripción'
+                />
               </div>
             </div>
           </div>
@@ -73,11 +72,10 @@ const Suscripcion = () => {
                     <span className="p-3">Contenido VOD</span>
                   </div>
                 </ul>
-                <a
-                  href="https://wa.me/573226424588?text=Me%20interesa%203%20meses%20de%20suscripción"
-                  className="mt-4 btn-get-started">
-                  Comprar
-                </a>
+                <WhatsAppButtom
+                  label='Comprar'
+                  message='Me interesa 3 meses de suscripción'
+                />
               </div>
             </div>
           </div>
@@ -109,12 +107,10 @@ const Suscripcion = () => {
                     <span className="p-3">Contenido VOD</span>
                   </div>
                 </ul>
-                <a
-                  href="https://wa.me/573226424588?text=Me%20interesa%206%20meses%20de%20suscripción"
-                  className="mt-4 btn-get-started"
-                >
-                  Comprar
-                </a>
+                <WhatsAppButtom
+                  label='Comprar'
+                  message='Me interesa 6 meses de suscripción'
+                />
               </div>
             </div>
           </div>
