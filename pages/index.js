@@ -119,7 +119,7 @@ export default function Home() {
         <NavidadPromo />
       </main>
       <Footer />
-      <Whatsapp />
+      <Whatsapp indicativo={58} number={4126679598} />
       {load && <Loading />}
     </>
   )

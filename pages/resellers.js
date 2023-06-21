@@ -90,17 +90,13 @@ export default function Home() {
         <script type="application/ld+json" dangerouslySetInnerHTML={getDataStructure()} />
         <script type="application/ld+json" dangerouslySetInnerHTML={getSocials()} />
       </Head>
-
       <Nav />
-
       <main className='dg-theme'>
         <Intro />
         <Planes />
         <CardDescarga target="app_magis" />
       </main>
-
       <Footer />
-
       <Whatsapp indicativo={58} number={4126679598} />
       {load && <Loading />}
     </>
