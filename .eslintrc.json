@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "next"
+  ],
+  "rules": {
+    "react-hooks/exhaustive-deps": "off"
+  }
 }

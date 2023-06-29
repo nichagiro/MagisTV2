@@ -18,7 +18,7 @@ export default function Home() {
 
   const onStart = () => {
     // Testimonials carousel (uses the Owl Carousel library)
-    $(".testimonials-carousel").owlCarousel({
+    window.$(".testimonials-carousel").owlCarousel({
       autoplay: true,
       items: 1,
       lazyLoad: true,

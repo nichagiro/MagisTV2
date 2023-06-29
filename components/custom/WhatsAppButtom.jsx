@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useMemo } from 'react'
 
 const WhatsAppButtom = ({ phone, message, label }) => {
@@ -7,10 +8,10 @@ const WhatsAppButtom = ({ phone, message, label }) => {
     , [phone, message])
 
   return (
-    <a href={urlWhatsapp} className="mt-4 btn-get-started">
+    <Link href={urlWhatsapp} className="mt-4 btn-get-started">
       {label}
       <i className="fab fa-whatsapp ml-1"></i>
-    </a>
+    </Link>
   )
 }
 
