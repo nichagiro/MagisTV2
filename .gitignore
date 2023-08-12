@@ -40,4 +40,6 @@ next-env.d.ts
 favicon.ico
 vercel.svg
 
-
+#firebase
+.firebase
+.firebaserc

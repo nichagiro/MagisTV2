@@ -12,7 +12,12 @@ const CardDescarga = ({ target }) => {
             <p className="h4 font-weight-bold pl-2">Fire TV</p>
           </div>
           <div className="d-flex justify-content-center mt-2">
-            <Link download href="app/magis_tv_v5.6.8.apk" id="btn-download">Descargar</Link>
+            <Link
+              target='_blank'
+              href="https://mega.nz/file/07cRgLwA#daq6IYoyKRsf_S7NXowGrJIknd2GWJ5SlHVse68QfFA"
+              id="btn-download">
+              Descargar
+            </Link>
           </div>
           <div className="text-center">
             <small >Fire TV Stick / HD / 4K / Lite / Cube</small>
@@ -24,7 +29,12 @@ const CardDescarga = ({ target }) => {
             <p className="h4 font-weight-bold pl-2">Android</p>
           </div>
           <div className="d-flex justify-content-center mt-2">
-            <Link download href="app/magis_mobile_v5.6.8.apk" id="btn-download">Descargar</Link>
+            <Link
+              target='_blank'
+              href="https://mega.nz/file/IvdhQCqA#Vjf-ZgBPRoJcAknWke_AtO3OI5Ppzb247rS8Z_58n0Q"
+              id="btn-download">
+              Descargar
+            </Link>
           </div>
           <div className="text-center">
             <small>Smartphone con android superior a 5.1</small>
@@ -36,7 +46,12 @@ const CardDescarga = ({ target }) => {
             <p className="h4 font-weight-bold pl-2">Android TV</p>
           </div>
           <div className="d-flex justify-content-center mt-2">
-            <Link download href="app/magis_tv_v5.6.8.apk" id="btn-download">Descargar</Link>
+            <Link
+              target='_blank'
+              href="https://mega.nz/file/07cRgLwA#daq6IYoyKRsf_S7NXowGrJIknd2GWJ5SlHVse68QfFA"
+              id="btn-download">
+              Descargar
+            </Link>
           </div>
           <div className="text-center">
             <small>TV BOX / Android TV / Mi Box Xiaomi</small>
