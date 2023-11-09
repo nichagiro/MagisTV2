@@ -1,47 +1,27 @@
-import moment from 'moment/moment';
-import React, { Fragment, useEffect } from 'react';
-import WhatsAppButtom from '../custom/WhatsAppButtom';
+import React, { Fragment } from 'react'
+import WhatsAppButtom from '../custom/WhatsAppButtom'
 
-const NavidadPromo = () => {
-  useEffect(() => {
-    onStart()
-  }, [])
-
-  const onStart = () => {
-    const now = moment().format('YYYY-MM-DD');
-    const limitDate = moment('2024-12-06');
-    const visible = moment(now).isSameOrBefore(limitDate)
-    if (visible) {
-      setTimeout(() => {
-        try {
-          document.getElementById('buttonNavidad').click()
-        } catch ({ message }) {
-          console.log('navidad promo', message)
-        }
-      }, 3000);
-    }
-  }
-
+const PromoGeneral = () => {
   return (
     <Fragment>
       <button
-        id='buttonNavidad'
+        id='btnPromo'
         type="button"
         className="btn btn-primary d-none"
         data-toggle="modal"
-        data-target="#exampleModal">
+        data-target="#promoModal">
         click popup navidad
       </button>
       <div
         style={{ zIndex: 10000 }}
         className="modal fade"
-        id="exampleModal"
+        id="promoModal"
         tabIndex="-1"
         role="dialog"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="promocion magis tv internacional"
         aria-hidden="true"
       >
-        <div className="modal-dialog" role="document">
+        <div className="modal-dialog modal-lg" role="document">
           <div className="modal-content">
             <div className="modal-header">
               <h5 className="modal-title">Magist Tv International</h5>
@@ -55,9 +35,9 @@ const NavidadPromo = () => {
             </div>
             <div>
               <picture>
-                <source srcSet="/img/navidadPromo.webp" type="image/webp" />
+                <source srcSet="/img/promoNov.webp" type="image/webp" />
                 <img
-                  src='/img/navidadPromo.webp'
+                  src='/img/promoNov.webp'
                   className="img-fluid"
                   alt="Navidad magis tv international"
                   loading="lazy"
@@ -70,8 +50,7 @@ const NavidadPromo = () => {
             >
               <WhatsAppButtom
                 label='Lo quiero!'
-                phone={584126679598}
-                message='Me interesa el promo de navidad'
+                message='Me interesa la promo'
               />
             </div>
           </div>
@@ -81,4 +60,4 @@ const NavidadPromo = () => {
   )
 }
 
-export default NavidadPromo
+export default PromoGeneral

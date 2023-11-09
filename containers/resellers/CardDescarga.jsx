@@ -14,7 +14,7 @@ const CardDescarga = ({ target }) => {
           <div className="d-flex justify-content-center mt-2">
             <Link
               target='_blank'
-              href="https://mega.nz/file/07cRgLwA#daq6IYoyKRsf_S7NXowGrJIknd2GWJ5SlHVse68QfFA"
+              href={process.env.NEXT_PUBLIC_APP_TV}
               id="btn-download">
               Descargar
             </Link>
@@ -31,7 +31,7 @@ const CardDescarga = ({ target }) => {
           <div className="d-flex justify-content-center mt-2">
             <Link
               target='_blank'
-              href="https://mega.nz/file/IvdhQCqA#Vjf-ZgBPRoJcAknWke_AtO3OI5Ppzb247rS8Z_58n0Q"
+              href={process.env.NEXT_PUBLIC_APP_MOBILE}
               id="btn-download">
               Descargar
             </Link>
@@ -48,7 +48,7 @@ const CardDescarga = ({ target }) => {
           <div className="d-flex justify-content-center mt-2">
             <Link
               target='_blank'
-              href="https://mega.nz/file/07cRgLwA#daq6IYoyKRsf_S7NXowGrJIknd2GWJ5SlHVse68QfFA"
+              href={process.env.NEXT_PUBLIC_APP_TV}
               id="btn-download">
               Descargar
             </Link>

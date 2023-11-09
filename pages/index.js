@@ -1,6 +1,4 @@
-import Loading from '@/components/custom/Loading'
-import Whatsapp from '@/components/custom/Whatsapp'
-import NavidadPromo from '@/components/publicitarios/NavidadPromo'
+import Publicidad from '@/components/publicitarios/Publicidad'
 import Deportes from '@/containers/home/Deportes'
 import Exclusivos from '@/containers/home/Exclusivos'
 import Intro from '@/containers/home/Intro'
@@ -8,16 +6,12 @@ import InvitacionReseller from '@/containers/home/InvitacionReseller'
 import Suscripcion from '@/containers/home/Suscripcion'
 import Vod from '@/containers/home/Vod'
 import CardDescarga from '@/containers/resellers/CardDescarga'
-import Footer from '@/layouts/footers/Footer'
-import Nav from '@/layouts/navs/Nav'
+import Layout from '@/layouts/Layout'
 import Head from 'next/head'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 
 export default function Home() {
-  const [load, setLoad] = useState(true)
-
-  const onStart = () => {
-    // Testimonials carousel (uses the Owl Carousel library)
+  useEffect(() => {
     window.$(".testimonials-carousel").owlCarousel({
       autoplay: true,
       items: 1,
@@ -25,11 +19,6 @@ export default function Home() {
       loop: true,
       mouseDrag: false,
     });
-    setLoad(false)
-  }
-
-  useEffect(() => {
-    onStart()
   }, [])
 
   const getSocials = () => {
@@ -107,8 +96,7 @@ export default function Home() {
         <script type="application/ld+json" dangerouslySetInnerHTML={getDataStructure()} />
         <script type="application/ld+json" dangerouslySetInnerHTML={getSocials()} />
       </Head>
-      <Nav />
-      <main className='dg-theme'>
+      <Layout>
         <Intro />
         <Exclusivos />
         <Deportes />
@@ -116,11 +104,8 @@ export default function Home() {
         <InvitacionReseller />
         <Vod />
         <CardDescarga target="app_magis" />
-        <NavidadPromo />
-      </main>
-      <Footer />
-      <Whatsapp indicativo={58} number={4126679598} />
-      {load && <Loading />}
+        <Publicidad date="2023-11-30" />
+      </Layout>
     </>
   )
 }

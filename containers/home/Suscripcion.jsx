@@ -4,7 +4,7 @@ import React from 'react'
 const Suscripcion = () => {
   return (
     <section id="why-us" className="wow fadeIn">
-      <div className="px-3">
+      <div className="container">
         <header className="section-header">
           <h3>SUSCRIPCIÓN</h3>
           <p>CANCELA TU PLAN Y LUEGO REGISTRA TU PAGO</p>

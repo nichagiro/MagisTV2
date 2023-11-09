@@ -4,7 +4,7 @@ import React from 'react'
 const Planes = () => {
   return (
     <section id="why-us" className="wow fadeIn">
-      <div className="px-3">
+      <div className="container" style={{ maxWidth: 1500 }}>
         <header className="section-header">
           <h3>PLANES RESELLERS</h3>
           <p className="text-white w-75 text-left">

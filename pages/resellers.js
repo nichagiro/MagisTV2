@@ -1,20 +1,10 @@
-import Loading from '@/components/custom/Loading'
-import Whatsapp from '@/components/custom/Whatsapp'
 import CardDescarga from '@/containers/resellers/CardDescarga'
 import Intro from '@/containers/resellers/Intro'
 import Planes from '@/containers/resellers/Planes'
-import Footer from '@/layouts/footers/Footer'
-import Nav from '@/layouts/navs/Nav'
+import Layout from '@/layouts/Layout'
 import Head from 'next/head'
-import { useEffect, useState } from 'react'
 
 export default function Home() {
-  const [load, setLoad] = useState(true)
-
-  useEffect(() => {
-    setLoad(false)
-  }, [])
-
   const getSocials = () => {
     return {
       __html: `
@@ -90,15 +80,11 @@ export default function Home() {
         <script type="application/ld+json" dangerouslySetInnerHTML={getDataStructure()} />
         <script type="application/ld+json" dangerouslySetInnerHTML={getSocials()} />
       </Head>
-      <Nav />
-      <main className='dg-theme'>
+      <Layout>
         <Intro />
         <Planes />
         <CardDescarga target="app_magis" />
-      </main>
-      <Footer />
-      <Whatsapp indicativo={58} number={4126679598} />
-      {load && <Loading />}
+      </Layout>
     </>
   )
 }
