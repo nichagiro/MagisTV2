@@ -6,8 +6,7 @@ const Descargar = ({ className }) => {
       <button
         data-toggle="modal"
         data-target="#app_magis"
-        id="btn-download"
-        className={className}
+        className={`btn-download ${className}`}
       >
         Descargar
       </button>

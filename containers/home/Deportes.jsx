@@ -12,7 +12,7 @@ const Deportes = () => {
         <div className="row">
           <div className="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <p className="description">
-              Reúne a tus amigos y familiares para ver tus eventos deportivos favoritos, En MagisTV tenemos una gran
+              Reúne a tus amigos y familiares para ver tus eventos deportivos favoritos, En Magis TV tenemos una gran
               cantidad de canales de deportes, y canales de Pases exclusivos totalmente gratis en cualquiera de nuestros planes.
             </p>
             <div className="row justify-content-center">

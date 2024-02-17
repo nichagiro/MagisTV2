@@ -1,4 +1,3 @@
-import Publicidad from '@/components/publicitarios/Publicidad'
 import Deportes from '@/containers/home/Deportes'
 import Exclusivos from '@/containers/home/Exclusivos'
 import Intro from '@/containers/home/Intro'
@@ -67,32 +66,25 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <meta name="language" content="es" />
-        <meta name="revisit-after" content="7 days" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="magis tv international, series, películas, deportes, premium, netflix, prime, magi" />
-        <meta name="description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
-        <meta name="subject" content="Entretenimiento, peliculas, series, anime, caricaturas" />
-        <meta name="author" content="Nicolas Chamorro Giron" />
-        <meta name="copyright" content="© overweb" />
-        <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="Magis TV International, magis tv, películas, deportes, premium, Netflix, Prime, Disney Plus" />
+        <meta name="description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, una amplia selección de series y películas" />
+        <meta name="copyright" content="© OverWeb" />
         <link rel="canonical" href="https://magistvinternational.com/" />
-        <title>MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES</title>
+        <title>MAGIS TV INTERNATIONAL - APP DE PELICULAS Y SERIES - MAGIS TV</title>
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES" />
-        <meta name="twitter:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
-        <meta name="twitter:image" content="https://magistvinternational.com/img/gucci.webp" />
+        <meta name="twitter:title" content="MAGIS TV INTERNATIONAL - APP DE PELICULAS Y SERIES - MAGIS TV" />
+        <meta name="twitter:description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, una amplia selección de series y películas" />
+        <meta name="twitter:image" content="https://magistvinternational.com/img/home.webp" />
         <meta name="twitter:site" content="@Nicolas63783814" />
         <meta name="twitter:creator" content="@Nicolas63783814" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="MAGIS TV INTERNATIONAL | SERIES | PELÍCULAS | DEPORTES" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="MAGIS TV INTERNATIONAL - APP DE PELICULAS Y SERIES - MAGIS TV" />
         <meta property="og:url" content="https://magistvinternational.com/" />
-        <meta property="og:image" content="https://magistvinternational.com/img/gucci.webp" />
+        <meta property="og:image" content="https://magistvinternational.com/img/home.webp" />
         <meta property="og:image:alt" content="MAGIS TV ENTRETENIMIENTO" />
-        <meta property="og:description" content="magis tv international, disfruta del mejor contenido en full calidad, películas, series, deportes, canales en vivo y premium, netflix, prime, disney plus, entre otros." />
-        <meta property="og:site_name" content="MagistTvInternational" />
+        <meta property="og:description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, una amplia selección de series y películas" />
+        <meta property="og:site_name" content="Magis TV International" />
         <script type="application/ld+json" dangerouslySetInnerHTML={getDataStructure()} />
         <script type="application/ld+json" dangerouslySetInnerHTML={getSocials()} />
       </Head>
@@ -104,8 +96,8 @@ export default function Home() {
         <InvitacionReseller />
         <Vod />
         <CardDescarga target="app_magis" />
-        <Publicidad date="2023-11-30" />
       </Layout>
     </>
   )
 }
+

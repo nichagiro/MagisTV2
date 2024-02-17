@@ -303,21 +303,21 @@ h6 {
     color: #fff
 }
 
-#btn-download {
+.btn-download {
     border: 2px solid #fff;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 10px 32px;
+    padding: 10px 32px !important;
     border-radius: 50px;
     transition: .5s;
     margin: 0 20px 20px 0;
     color: #fff
 }
 
-#btn-download:hover {
+.btn-download:hover {
     background: #111;
     border-color: #2b2a2a;
     color: #fff

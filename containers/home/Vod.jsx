@@ -29,8 +29,8 @@ const Vod = () => {
         <div className="container text-justify mt-5">
           <small>
             MAGIST TV International no ofrece cuentas para estas plataformas solo su
-            contenido en el VOD de MagisTV / La disponibilidad de las películas o series
-            depende de MagisTV y no MAGIS TV INTERNATIONAL.
+            contenido en el VOD de Magis TV / La disponibilidad de las películas o series
+            depende de Magis TV y no MAGIS TV INTERNATIONAL.
           </small>
         </div>
       </div>

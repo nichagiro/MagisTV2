@@ -15,7 +15,7 @@ const CardDescarga = ({ target }) => {
             <Link
               target='_blank'
               href={process.env.NEXT_PUBLIC_APP_TV}
-              id="btn-download">
+              className="btn-download">
               Descargar
             </Link>
           </div>
@@ -32,7 +32,7 @@ const CardDescarga = ({ target }) => {
             <Link
               target='_blank'
               href={process.env.NEXT_PUBLIC_APP_MOBILE}
-              id="btn-download">
+              className="btn-download">
               Descargar
             </Link>
           </div>
@@ -49,7 +49,7 @@ const CardDescarga = ({ target }) => {
             <Link
               target='_blank'
               href={process.env.NEXT_PUBLIC_APP_TV}
-              id="btn-download">
+              className="btn-download">
               Descargar
             </Link>
           </div>
@@ -64,7 +64,7 @@ const CardDescarga = ({ target }) => {
   const RenderButton = useMemo(() =>
     <>
       <Link
-        href="files/manual_instalacion_App.pdf"
+        href="files/manual.pdf"
         target="_blank"
         className="btn bg-dark text-white mt-3"
         style={{ border: '1px white solid' }}
