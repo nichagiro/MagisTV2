@@ -66,15 +66,16 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="language" content="es" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="Magis TV International, magis tv, películas, deportes, premium, Netflix, Prime, Disney Plus" />
-        <meta name="description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, una amplia selección de series y películas" />
+        <meta name="description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, amplia selección de series y películas" />
         <meta name="copyright" content="© OverWeb" />
         <link rel="canonical" href="https://magistvinternational.com/" />
         <title>MAGIS TV INTERNATIONAL - APP DE PELICULAS Y SERIES - MAGIS TV</title>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="MAGIS TV INTERNATIONAL - APP DE PELICULAS Y SERIES - MAGIS TV" />
-        <meta name="twitter:description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, una amplia selección de series y películas" />
+        <meta name="twitter:description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, amplia selección de series y películas" />
         <meta name="twitter:image" content="https://magistvinternational.com/img/home.webp" />
         <meta name="twitter:site" content="@Nicolas63783814" />
         <meta name="twitter:creator" content="@Nicolas63783814" />
@@ -83,7 +84,7 @@ export default function Home() {
         <meta property="og:url" content="https://magistvinternational.com/" />
         <meta property="og:image" content="https://magistvinternational.com/img/home.webp" />
         <meta property="og:image:alt" content="MAGIS TV ENTRETENIMIENTO" />
-        <meta property="og:description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, una amplia selección de series y películas" />
+        <meta property="og:description" content="Explora un mundo de entretenimiento con Magis TV. Disfruta de streaming de alta calidad con acceso a canales en vivo, amplia selección de series y películas" />
         <meta property="og:site_name" content="Magis TV International" />
         <script type="application/ld+json" dangerouslySetInnerHTML={getDataStructure()} />
         <script type="application/ld+json" dangerouslySetInnerHTML={getSocials()} />

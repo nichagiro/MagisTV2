@@ -51,6 +51,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta name="language" content="es" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="magis tv international, series, películas, deportes, premium, netflix, prime, magi" />
         <meta name="description" content="Magis TV, oportunidad de incrementar sus ingresos pasivos a su ritmo desde su casa. Forma parte de nosotros ofreciendo el mejor servicio de TV en vivo" />
